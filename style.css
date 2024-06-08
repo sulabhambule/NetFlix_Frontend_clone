@@ -147,16 +147,24 @@ nav button {
   z-index: 10;
 }
 
-.secImg video {
-  position: absolute;
+.firstImg video {
+  /* position: absolute;
   top: 51px;
   right: 0;
-  width: 555px;
+  width: 555px; */
 
-  /* position: absolute;
-    top: 86px;
-    right: 77px;
-    width: 402px; */
+  position: absolute;
+  top: 122px;
+  right: 78px;
+  width: 400px;
+}
+
+.secondImg video {
+  position: absolute;
+  top: 83px;
+  right: 111px;
+  width: 342px;
+
 }
 
 section.first > div {
@@ -206,9 +214,7 @@ section.first > div :nth-child(2) {
   font-size: 21px;
 }
 
-
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
 }
