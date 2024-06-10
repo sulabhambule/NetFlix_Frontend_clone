@@ -1,1 +1,1 @@
-Type : click here to visit : https://sulabhambule.github.io/Myntra_FrontEnd_Clone/index.html
+Type : click here to visit : https://sulabhambule.github.io/Netflix_FrontEnd_Clone/.html
