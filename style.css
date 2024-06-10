@@ -195,7 +195,7 @@ section.first > div :nth-child(2) {
   font-size: 48px;
 }
 
-.faq :hover {
+.faqbox:hover {
   background-color: #414141;
   color: white;
 }
@@ -216,25 +216,142 @@ section.first > div :nth-child(2) {
   font-size: 21px;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.FAQinput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
 }
 
-@media screen and (max-width: 1300px) {
+.FAQinput .FAQtext {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.faq input {
+  padding: 7px 101px 8px 14px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgb(246, 238, 238, 0.5);
+}
+
+
+
+/* .footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+
+.links {
+  display: inline-flex;
+  justify-content: center;
+  margin: 72px 150px;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+  height: inherit;
+}
+
+.links ul li {
+  display: inline-flex; 
+  margin-right: 10px; 
+}
+
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  width: 250px;
+}
+
+.links a:hover {
+  background-color: #414141; 
+} */
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    max-width: 90vw;
+  }
+  nav img {
+    width: 90px;
+  }
+  .first {
+    flex-wrap: wrap;
+  }
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  section.first > div :first-child {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+
+  section.first > div :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .secImg img {
+    width: 300px;
+  }
+
+  .firstImg video {
+    position: absolute;
+    top: 80px;
+    right: 33px;
+    width: 224px;
+  }
+
+  .secondImg video {
+    position: absolute;
+    top: 62px;
+    right: 61px;
+    width: 187px;
+  }
+
+  .faq h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1300px) {
   nav {
     max-width: 90vw;
   }
   .first {
     flex-wrap: wrap;
-  }
-
-  .main {
-    height: 500px;
-  }
-
-  .main .box {
-    height: 500px;
   }
   .hero-btn {
     display: flex;
